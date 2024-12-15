@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="projects.html">Progetti</a></li>
+                <li><a href="contact.html">Contatto</a></li>
+            </ul>
+        </nav>
+        <h1>Benvenuto nel Mio Portfolio</h1>
+    </header>
+
+    <section>
+        <h2>Su di me</h2>
+        <p>Sono appassionato da sempre al mondo della tecnologia e dell'informatica. <br> Sono una persona sempre positiva e ambiziosa, <br> disponibile a mettermi sempre in gioco e a lavorare in team.</p>
+    </section>
+
+    <div id="chat-popup">
+        <div id="chat-box"></div>
+        <form id="chat-form">
+            <input type="text" id="message" placeholder="Scrivi un messaggio..." required>
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+    <button id="chat-icon">💬</button>
+
+    <footer>
+        <p>&copy; 2024 Il Mio Portfolio. Tutti i diritti riservati.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
